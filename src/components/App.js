@@ -13,8 +13,8 @@ function App() {
       the browser as you write your code; and good luck!
     
       <Header name={blogData.name}/>
-      <About image={blogData.image}/>
-      <About about={blogData.about}/>
+      <About image={blogData.image} about={blogData.about}/>
+     
 
     </div>
   );
